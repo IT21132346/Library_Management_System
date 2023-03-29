@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Sagacious Library</title>
+ <link rel="shortcut icon"  href="images/1111.png" />
+		<link rel="stylesheet" href="css/Header.css">
+        <link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/collection.css">
+
+    </head>
+
+	<body style="background-image:url('images/e.jpg'); background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+	
+	<!-------------------Header------------------->	
+	<nav>
+       <div class="btna ">
+<a href="../malith/register1.php"><button class="btn" name="button1"><b>Register</b></button></a>
+<a href="../sonali/loginselector1.html"><button class="btn" name="button1"><b>Login</b></button></a>
+</div>
+       
+        
+		<a class="login" href=""><img id="logo" src="images/1111.png" alt="logo"></a>
+
+        <ul class="navigation">
+          <li><b><a id="nav1" href="../pasindu/Home1.html">Home</a></b></li>
+          <li><b><a id="nav1" href="../sonali/collection.html"> Collection</a></b></li>
+          <li><b><a id="nav1" href="aboutus.php">About Us</a></b></li>
+          <li><b><a id="nav1" href="../malith/search.php">search </a></b></li>
+        </ul>
+    </nav>
+	
+	<h1><b>Novel collection</b></h1>
+
+
+<!--w3school-->
+	 <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/p3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/p4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/p5.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4/ 4</div>
+    <img src="images/p8.png" style="width:100%">
+  </div>
+  </div>
+  
+ 
+
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	
+	
+	
+	<script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides ");
+            var dots = document.getElementsByClassName("dot ");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active ", " ");
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            dots[slideIndex - 1].className += " active ";
+            setTimeout(showSlides, 7000); // Change image every 2 seconds
+        }
+    </script>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p3.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'All the Letters I Should Have Sent by Rania Naim'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                    To the people we loved and the people who couldn’t love us.To the ones who broke our hearts and the ones that got away.To the ones who loved us and the ones who healed us.To the ones who made us ask important questions and the ones who gave us the answers.To all the people who once came into our lives and left an impact, left a mark or left a scar.This book is for you.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p4.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'The First New Universe by Heidi Priebe'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                    Heidi Priebe’s first poetry collection, “The First New Universe,” offers an incredibly raw and deeply personal look at the poet’s experiences with first love, first loss and the redemption that can be found inside of each.Exploring themes of infatuation and disillusionment, betrayal and forgiveness, regret and acceptance and our endless potential for rebirth, Priebe’s work shamelessly exposes what it means to be young and in love—at its ugliest and most heartbreaking, as well as at its bravest and most healing. 
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p5.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'Nightmare in dreams by brian gates'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                   What is a dream? Random brain activity? A cartoon projected onto the screen of your mind? Or could your dreams be a portal to another reality--a dimension where the past, present, and future fuse into a secret frontier of unlimited possibilities?On Dream Gates, master dream explorer Robert Moss shows you how to use actual dreamwork practices and your own innate skills to confidently explore the riches of this infinite realm.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p8.png">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'Your Soul is a River by Nikita Gill'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                    This is a book about the journey of healing from trauma and becoming whole again.Directions: apply to your soul gently, whilst sitting under the stars.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	
+	
+	</BR></BR></BR></BR>
+	
+
+	<!------------------footer section--------------------->
+	<footer class= "s-footer">
+	<div>
+	<center><img id="logo" src="images/1111.png" alt="logo"></center>
+	
+	<div class="row">
+	
+	<div class = "col">
+	<h3>Contact us</h3>
+	<ul class = "footerlinks">
+	       <li><b><a id="nav1" href="../pasindu/Home1.html">Home</a></b></li>
+          <li><b><a id="nav1" href="../sonali/collection.html"> Collection</a></b></li>
+          <li><b><a id="nav1" href="aboutus.php">About Us</a></b></li>
+          <li><b><a id="nav1" href="../malith/search.php">search </a></b></li>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Useful links</h3>
+	<ul class = "footerlinks">
+	<li><a href ="http://www.natlib.lk/">National Library of Sri Lanka</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">The Library Campaign</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">Room to Read</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">Pasific Atrocities Education</a></li>
+    <li><a href ="https://asiafoundation.org/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaHJ_6jE3ZXrnLQXgjWy1OyuJKMNo5dWUd0DhZWDYbKUPOUNFkB1mnBoC2fgQAvD_BwE">The Asia Foundation</a></li>
+    </ul>
+</div>
+	
+	<div class = "col">
+	<h3>Contact us</h3>
+	<ul class = "footerlinks">
+	<li>Email : sagaciouslibrary@gmail.com</li>
+	<li>Phone : +94012345656</li>
+	<li></li>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Connect us</h3>
+	<div class = "row">
+	<ul>
+	        <!--w3school-->
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <a href="https://www.facebook.com/profile.php?id=100073239021466" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/SagaciousLibra1" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/sagacious_library/" class="fa fa-instagram"></a>
+            
+			 
+
+    </ul>
+	</div>
+	</div>
+	</div>	
+	
+	<hr/>
+	<center>
+	<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">SAGACIOUS</a>.
+            </p>
+			</center>
+	</footer>
+	
+
+ </body>
+ </html>
