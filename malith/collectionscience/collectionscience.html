@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Sagacious Library</title>
+ <link rel="shortcut icon"  href="images/1111.png" />
+		<link rel="stylesheet" href="css/Header1.css">
+        <link rel="stylesheet" href="css/footer1.css">
+		<link rel="stylesheet" href="css/collection.css">
+
+    </head>
+
+	<body style="background-image:url('images/e.jpg'); background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+	
+	<!--Header-->
+	<nav>
+       
+        <div class="btna ">
+            <a href="../malith/register1.php"><button class="btn" name="button1"><b>Register</b></button></a>
+			<a href="../../sonali/loginselector1.html"><button class="btn" name="button1"><b>Login</b></button></a>
+        </div>
+		<a class="login" href=""><img id="logo" src="images/1111.png" alt="logo"></a>
+
+        <ul class="navigation">
+          <li><b><a id="nav1" href="../../pasindu/Home1.html">Home</a></b></li>
+          <li><b><a id="nav1" href="../../sonali/collection.html"> Collection</a></b></li>
+          <li><b><a id="nav1" href="../../navinga/aboutus.php">About Us</a></b></li>
+          <li><b><a id="nav1" href="../search.php">search </a></b></li>
+        </ul>
+    </nav>
+	
+	<h1><b>Science book collection</b></h1>
+
+
+<!--w3school-->
+	 <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/4.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4/ 4</div>
+    <img src="images/5.jpg" style="width:100%">
+  </div>
+  </div>
+  
+ 
+
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	
+	
+	
+	<script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides ");
+            var dots = document.getElementsByClassName("dot ");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active ", " ");
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            dots[slideIndex - 1].className += " active ";
+            setTimeout(showSlides, 7000); // Change image every 2 seconds
+        }
+    </script>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/2.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>' Vision Science Photons to Phenomenology '</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                 This book revolutionizes how vision can be taught to undergraduate and graduate students in cognitive science, psychology, and optometry. It is the first comprehensive textbook on vision to reflect the integrated computational approach of modern research scientists. This new interdisciplinary approach, called "vision science," integrates psychological, computational, and neuroscientific perspectives.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/3.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'Microbe Hunters '</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                An international bestseller, translated into eighteen languages, Paul de Kruif’s classic account of the first scientists to see and learn about the microscopic world continues to fascinate new readers
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/4.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>' H2O by Philip Bal'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                 This volume takes us on a gloriously offbeat and intelligent investigation into exactly what we do and do not know about water, the substance which sustains life.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/5.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'Sophie's World:  History of Philosophy'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                 A page-turning novel that is also an exploration of the great philosophical concepts of Western thought, Sophie's World has fired the imagination of readers all over the world, with more than twenty million 
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	
+	
+	</BR></BR></BR></BR>
+	
+
+	<!--footer section-->
+	<footer class= "s-footer">
+	<div>
+	<center><img id="logo" src="images/1111.png" alt="logo"></center>
+	
+	<div class="row">
+	
+	<div class = "col">
+	<h3>Contact us</h3>
+	<ul class = "footerlinks">
+	      <li><b><a id="nav1" href="Home1.html">Home</a></b></li>
+          <li><b><a id="nav1" href="#"> Collection</a></b></li>
+          <li><b><a id="nav1" href="aboutus.php">About Us</a></b></li>
+          <li><b><a id="nav1" href="search.html">search </a></b></li>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Useful links</h3>
+	<ul class = "footerlinks">
+	<li><a href ="http://www.natlib.lk/">National Library of Sri Lanka</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">The Library Campaign</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">Room to Read</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">Pasific Atrocities Education</a></li>
+    <li><a href ="https://asiafoundation.org/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaHJ_6jE3ZXrnLQXgjWy1OyuJKMNo5dWUd0DhZWDYbKUPOUNFkB1mnBoC2fgQAvD_BwE">The Asia Foundation</a></li>
+    </ul>
+</div>
+	
+	<div class = "col">
+	<h3>Contact us</h3>
+	<ul class = "footerlinks">
+	<li>Email : sagaciouslibrary@gmail.com</li>
+	<li>Phone : +94012345656</li>
+	<li></li>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Connect us</h3>
+	<div class = "row">
+	<ul>
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <a href="https://www.facebook.com/profile.php?id=100073239021466" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/SagaciousLibra1" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/sagacious_library/" class="fa fa-instagram"></a>
+            
+			 
+
+    </ul>
+	</div>
+	</div>
+	</div>	
+	
+	<hr/>
+	<center>
+	<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">SAGACIOUS</a>.
+            </p>
+			</center>
+	</footer>
+	
+
+ </body>
+ </html>
