@@ -1,0 +1,55 @@
+.ph{
+	margin-top:50px;
+	font-size:65px;
+	text-align:center;
+	font-family:arial;
+	color:#8A0A52 ;
+	font-weight: bold;
+}
+
+.books{
+	position:relative;
+	width:260px;
+	height:400px;
+	/*margin-top:50px;*/
+	display:inline-block;
+	margin:40px;
+}
+
+.book{
+	height:400px;
+	width:260px;
+	margin:0;
+	margin-top:0;
+}
+
+.overlay{
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: black;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	opacity:0.8;
+}
+
+.books:hover .overlay{
+	bottom:0;
+	height:100%;
+}
+
+.text{
+	white-space: nowrap;
+	color: white;
+	font-size: 30px;
+	font-family:arial;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Sagacious Library</title>
+		<link rel="shortcut icon"  href="images/1111.png" />
+		<link rel="stylesheet" href="styles/Header.css">
+        <link rel="stylesheet" href="styles/footercollection.css">
+		<link rel="stylesheet" href="styles/collection.css">
+
+    </head>
+
+	<body style="background-image:url('images/e.jpg'); background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+	
+	<!-------------------Header------------------->	
+	<nav>
+	      <div class="btna ">
+             <a href="../malith/register1.php"><button class="btn" name="button1"><b>Register</b></button></a>
+            <a href="../sonali/loginselector1.html"><button class="btn" name="button1"><b>Login</b></button></a>
+        </div>
+		
+        <a class="login" href=""><img id="logo" src="images/lg.jpg" alt="logo"></a>
+		
+		<ul class="navigation">
+          <li><b><a id="nav1" href="Home1.html">Home</a></b></li>
+          <li><b><a id="nav1" href="../sonali/collection.html"> Collection</a></b></li>
+          <li><b><a id="nav1" href="../navinga/aboutus.php">About Us</a></b></li>
+          <li><b><a id="nav1" href="../malith/search.php">search </a></b></li>
+        
+        </ul>
+    </nav>
+	
+	<h1><b>History collection</b></h1>
+
+
+<!--w3school-->
+	 <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/p3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/p4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/p5.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4/ 4</div>
+    <img src="images/p8.jpg" style="width:100%">
+  </div>
+  </div>
+  
+ 
+
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	
+	
+	
+	<script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides ");
+            var dots = document.getElementsByClassName("dot ");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active ", " ");
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            dots[slideIndex - 1].className += " active ";
+            setTimeout(showSlides, 7000); // Change image every 2 seconds
+        }
+    </script>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p3.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'The Silk Roads: A New History of the World'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                    The traditional view is that Western civilization descends from the Romans, who were in turn heir to the Greeks, who, in some accounts, were heirs to the Egyptians. Frankopan argues that the Persian Empire was the actual centre point of the rise of Western civilization.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p4.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'The Guns of August'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                    The Guns of August thus provides a narrative of the earliest stages of World War I, from the decisions to go to war, up until the start of the Franco-British offensive that stopped the German advance into France. The result was four years of trench warfare. In the course of her narrative Tuchman includes discussion of the plans, strategies, world events, and international sentiments before and during the war.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p5.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'1776: America and Britain at War'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                   1776 (released in the United Kingdom as 1776: America and Britain at War)[1] is a book written by David McCullough, published by Simon & Schuster on May 24, 2005. The work is a companion to McCullough's earlier biography of John Adams, and focuses on the events surrounding the start of the American Revolutionary War. While revolving mostly around the leadership (and often indecisiveness) of George Washington, there is also considerable attention given to King George III, William Howe, Henry Knox, and Nathanael Greene. Key Revolutionary War battles detailed in the book include the Battle of Dorchester Heights, the Battle of Long Island, and the Battle of Trenton.[2] The activities of the Second Continental Congress and the signing of the Declaration of Independence are treated in less detail, as the focus is on military rather than political events. The book includes multiple pages of full color illustrations, including portraits and historical battlefield maps made by British engineers at the time.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="blog-post ">
+        <div class="post-img ">
+            <img src="images/p8.jpg">
+        </div>
+ 
+        <div class="blog-post-info ">
+            <div class="blog-post-title ">
+                <h2>'The Rise and Fall of the Third Reich'</h2>
+            </div><br>
+            <div class="desc ">
+                <p>
+                    The book is based upon captured Nazi documents, the available diaries of propaganda minister Joseph Goebbels, of General Franz Halder, and of the Italian Foreign Minister Galeazzo Ciano, evidence and testimony from the Nuremberg trials, British Foreign Office reports, and the author's recollection of his six years in Germany (from 1934 to 1940) as a journalist, reporting on Nazi Germany for newspapers, the United Press International (UPI), and CBS Radio. The work was written and initially published in four parts, but a larger one-volume edition has become more common.
+                </p>
+            </div>
+        </div>
+    </div>
+	
+	
+	
+	</BR></BR></BR></BR>
+	
+
+	<!------------------footer section--------------------->
+	<footer class= "s-footer">
+	
+	<center><img id="logo" src="images/lg.jpg" alt="logo"></center>
+	
+	<div class="row">
+	
+	<div class = "col">
+	<h3>Contact us</h3>
+	
+		
+		<ul class="navigation">
+          <li><b><a id="nav1" href="Home1.html">Home</a></b></li>
+          <li><b><a id="nav1" href="../sonali/collection.html"> Collection</a></b></li>
+          <li><b><a id="nav1" href="../navinga/aboutus.php">About Us</a></b></li>
+          <li><b><a id="nav1" href="../malith/search.php">search </a></b></li>
+        </ul>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Useful links</h3>
+	<ul class = "footerlinks">
+	<li><a href ="http://www.natlib.lk/">National Library of Sri Lanka</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">The Library Campaign</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">Room to Read</a></li>
+    <li><a href ="https://librarycampaign.com/publicity-tools/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaDYJUVoJnCd4b4e8HvjcM3l2-olA5iRQV5Iz8IvAJtZitaMPBkFoVhoCpiQQAvD_BwE">Pasific Atrocities Education</a></li>
+    <li><a href ="https://asiafoundation.org/?gclid=CjwKCAjwzOqKBhAWEiwArQGwaHJ_6jE3ZXrnLQXgjWy1OyuJKMNo5dWUd0DhZWDYbKUPOUNFkB1mnBoC2fgQAvD_BwE">The Asia Foundation</a></li>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Contact us</h3>
+	<ul class = "footerlinks">
+	<li>Email : sagaciouslibrary@gmail.com</li>
+	<li>Phone : +94012345656</li>
+	<li></li>
+	</ul>
+	</div>
+	
+	<div class = "col">
+	<h3>Connect us</h3>
+	<div class = "row">
+	<ul>
+             <!--w3school-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <a href="https://www.facebook.com/profile.php?id=100073239021466" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/SagaciousLibra1" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/sagacious_library/" class="fa fa-instagram"></a>
+    </ul>
+	</div>
+	</div>
+	</div>	
+	
+	<hr/>
+	<center>
+	<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">SAGACIOUS</a>.
+            </p>
+			</center>
+	</footer>
+	</body>
+</html>

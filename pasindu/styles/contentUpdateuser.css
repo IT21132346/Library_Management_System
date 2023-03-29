@@ -1,0 +1,52 @@
+
+.content{
+	margin-top:50px;
+	margin-left:350px;
+	position:absolute;
+}
+
+.contentbg{
+	height:1140px;
+	width:100%;
+	position:absolute;
+	margin-top:27px;
+	opacity:0.8;
+}
+
+.he{
+	font-size:30px;
+	margin-left:350px;
+	font-family:'Oswald', sans-serif;
+	color:black;
+	position:relative;
+	
+}
+
+.tbl{
+	margin-top:20px;
+	font-family: 'Oswald', sans-serif;
+	border-collapse: collapse;
+	width: 1000px;
+	background-color:#F8EEEC;
+	position:relative;
+}
+
+th,td,tr{
+	padding:10px;
+}
+
+th{
+	background-color:maroon;
+	color: white;
+}
+
+.btned{  	/*edit profile button*/
+	background-color: black;
+	color:goldenrod;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left:0;
+	transition:.5s;
+}

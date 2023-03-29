@@ -1,0 +1,42 @@
+.contentbg1{
+	height:1050px;
+	width:100%;
+	position:absolute;
+	margin-top:27px;
+	opacity:0.8;
+	
+}
+.content{
+	margin-top:50px;
+	margin-left:350px;
+	position:absolute;
+	
+}
+
+.container1{
+	
+	margin-top:150px;
+	border-radius: 5px;
+	margin-left:25%;
+	margin-right:25%;
+	background-color: rgba(0,0,0,0.3);
+	/*background-color: charcoal;*/
+	padding: 20px;
+	position:relative;
+	
+}
+.btnsb{
+  	/*edit profile button*/
+	background-color: black;
+	color:goldenrod;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left:475px;
+	transition:.5s;
+}
+
+.sp{
+	margin-left:200px;
+}

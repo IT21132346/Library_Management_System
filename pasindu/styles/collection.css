@@ -1,0 +1,117 @@
+h1
+{
+	position: relative;
+    color: rgb(228, 238, 228);
+    text-align: center;
+    font-size: 50px;
+	top:50px;
+    font-family:fantasy;
+	
+}
+
+/*w3school*/
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+	top:40px;
+    margin: auto;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.blog-post{
+  display:flex;
+  flex-direction:row;
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius:5px;
+}
+.post-img {
+  flex:0;
+  padding:32px 0px 32px 0px;
+}
+.post-img>img {
+  width: 300px;
+  height: 200px;
+  border-radius:4.8px;
+  object-fit: cover;
+  transform:translateX(-50px);
+  box-shadow:0px 0px 3px 3px rgba(46, 46, 45, 0.5);
+}
+.blog-post-info{
+  flex:2;
+  padding:0px;
+}
+.blog-post-title {
+  color:rgb(32, 30, 30);
+  text-transform:uppercase;
+}
+ 
+
+@media  screen and (max-width:600px){
+.blog-post{
+flex-direction:column;
+}
+
+}
+
+
+
