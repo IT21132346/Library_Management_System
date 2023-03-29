@@ -1,0 +1,17 @@
+ table, td ,th
+ {
+   border: 1px solid black;
+   margin-left : 25%;
+   font-weight:bold;
+   font-size:15px;
+   font-family:montserrat;
+}
+
+table 
+{
+   width: 75%;
+   border-collapse: collapse;
+   margin-left : 20%;
+   margin-top:70px;
+   background:rgba(255,255,255,0.7);
+}
