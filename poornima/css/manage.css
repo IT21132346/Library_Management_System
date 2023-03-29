@@ -1,0 +1,15 @@
+
+
+/*manage table css*/
+table, td ,th{
+			  border: 1px solid black;
+			  margin-left : 25%;
+			  
+			}
+
+			table {
+			  width: 75%;
+			  border-collapse: collapse;
+			  margin-left : 20%;
+  
+        }

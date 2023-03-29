@@ -1,0 +1,72 @@
+
+body{
+	
+	margin-bottom :0px;
+	
+}
+
+
+
+.body
+{
+	
+	background-color:black;
+}
+
+
+/*book collection container*/
+.blog-post{
+  display:flex;
+  flex-direction:row;
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius:5px;
+}
+.post-img {
+  flex:0;
+  padding:32px 0px 32px 0px;
+}
+.post-img>img {
+  width: 300px;
+  height: 200px;
+  border-radius:4.8px;
+  object-fit: cover;
+  transform:translateX(-50px);
+  box-shadow:0px 0px 3px 3px rgba(46, 46, 45, 0.5);
+}
+.blog-post-info{
+  flex:2;
+  padding:0px;
+}
+.blog-post-title {
+  color:rgb(32, 30, 30);
+  text-transform:uppercase;
+}
+
+
+@media  screen and (max-width:600px){
+.blog-post{
+flex-direction:column;
+}
+ 
+}
+
+/*****************************************/
+.mtbody{
+	
+	font-family: 'Brush Script MT', cursive;
+	font-size:70px;
+	box-shadow:0px 0px 3px 3px rgba(46, 46, 45, 0.5);
+	border-radius:4.8px;
+  object-fit: cover;
+  
+	
+}
+
+.mtbody span
+{
+	color:#00FFFF;
+	background-color: black;
+}
